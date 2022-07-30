@@ -1,0 +1,1354 @@
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:17:26.402139"], ["updated_at", "2020-09-20 21:17:26.402139"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:38:36.832484"], ["updated_at", "2020-09-20 21:38:36.832484"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:38:36.882616"], ["updated_at", "2020-09-20 21:38:36.882616"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:38:36.884416"], ["updated_at", "2020-09-20 21:38:36.884416"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:38:36.886380"], ["updated_at", "2020-09-20 21:38:36.886380"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "cars"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "cars" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "make" varchar, "model" varchar, "year" varchar, "kilometers" float DEFAULT 0.0, "max_trunk_space" integer, "current_trunk_usage" integer DEFAULT 0, "current_wheel_usage" integer DEFAULT 0, "max_wheel_usage_before_change" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200920195713)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2020-09-20 21:39:30.248406"], ["updated_at", "2020-09-20 21:39:30.248406"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:30.297033"], ["updated_at", "2020-09-20 21:39:30.297033"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:30.347242"], ["updated_at", "2020-09-20 21:39:30.347242"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:30.349180"], ["updated_at", "2020-09-20 21:39:30.349180"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:30.351282"], ["updated_at", "2020-09-20 21:39:30.351282"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:48.880898"], ["updated_at", "2020-09-20 21:39:48.880898"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:48.932213"], ["updated_at", "2020-09-20 21:39:48.932213"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:48.934216"], ["updated_at", "2020-09-20 21:39:48.934216"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:39:48.935234"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:39:48.937572"], ["updated_at", "2020-09-20 21:39:48.937572"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:40:11.281474"], ["updated_at", "2020-09-20 21:40:11.281474"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:40:11.330307"], ["updated_at", "2020-09-20 21:40:11.330307"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:40:11.332118"], ["updated_at", "2020-09-20 21:40:11.332118"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:40:11.333063"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:40:11.335309"], ["updated_at", "2020-09-20 21:40:11.335309"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:16.186626"], ["updated_at", "2020-09-20 21:48:16.186626"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:16.239778"], ["updated_at", "2020-09-20 21:48:16.239778"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:16.241578"], ["updated_at", "2020-09-20 21:48:16.241578"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:48:16.242653"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:16.245354"], ["updated_at", "2020-09-20 21:48:16.245354"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:16.247244"], ["updated_at", "2020-09-20 21:48:16.247244"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:48:16.248227"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:16.249931"], ["updated_at", "2020-09-20 21:48:16.249931"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:16.251835"], ["updated_at", "2020-09-20 21:48:16.251835"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:48:16.252866"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:57.316741"], ["updated_at", "2020-09-20 21:48:57.316741"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:57.364858"], ["updated_at", "2020-09-20 21:48:57.364858"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:57.366736"], ["updated_at", "2020-09-20 21:48:57.366736"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:48:57.367687"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:57.369861"], ["updated_at", "2020-09-20 21:48:57.369861"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:57.371454"], ["updated_at", "2020-09-20 21:48:57.371454"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:48:57.372347"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:57.374178"], ["updated_at", "2020-09-20 21:48:57.374178"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:48:57.376001"], ["updated_at", "2020-09-20 21:48:57.376001"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:48:57.376959"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:49:20.322674"], ["updated_at", "2020-09-20 21:49:20.322674"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:49:20.370648"], ["updated_at", "2020-09-20 21:49:20.370648"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:49:20.372507"], ["updated_at", "2020-09-20 21:49:20.372507"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:49:20.373452"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:49:20.375826"], ["updated_at", "2020-09-20 21:49:20.375826"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:49:20.377457"], ["updated_at", "2020-09-20 21:49:20.377457"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:49:20.378381"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:49:20.380125"], ["updated_at", "2020-09-20 21:49:20.380125"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:49:20.381901"], ["updated_at", "2020-09-20 21:49:20.381901"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:49:20.382947"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.164380"], ["updated_at", "2020-09-20 21:51:45.164380"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.213458"], ["updated_at", "2020-09-20 21:51:45.213458"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.215391"], ["updated_at", "2020-09-20 21:51:45.215391"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:51:45.216380"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.218840"], ["updated_at", "2020-09-20 21:51:45.218840"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.220442"], ["updated_at", "2020-09-20 21:51:45.220442"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:51:45.221359"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.222842"], ["updated_at", "2020-09-20 21:51:45.222842"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.224431"], ["updated_at", "2020-09-20 21:51:45.224431"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:51:45.225426"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:51:45.227000"], ["updated_at", "2020-09-20 21:51:45.227000"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.650823"], ["updated_at", "2020-09-20 21:52:11.650823"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.698847"], ["updated_at", "2020-09-20 21:52:11.698847"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.700764"], ["updated_at", "2020-09-20 21:52:11.700764"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:52:11.701760"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.703969"], ["updated_at", "2020-09-20 21:52:11.703969"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.705589"], ["updated_at", "2020-09-20 21:52:11.705589"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:52:11.706526"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.708078"], ["updated_at", "2020-09-20 21:52:11.708078"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.709695"], ["updated_at", "2020-09-20 21:52:11.709695"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:52:11.710581"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:11.711966"], ["updated_at", "2020-09-20 21:52:11.711966"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-09-20 21:52:11.712879"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.066824"], ["updated_at", "2020-09-20 21:52:21.066824"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.115164"], ["updated_at", "2020-09-20 21:52:21.115164"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.117369"], ["updated_at", "2020-09-20 21:52:21.117369"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:52:21.118627"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.121278"], ["updated_at", "2020-09-20 21:52:21.121278"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.123449"], ["updated_at", "2020-09-20 21:52:21.123449"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:52:21.124513"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.126065"], ["updated_at", "2020-09-20 21:52:21.126065"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.127759"], ["updated_at", "2020-09-20 21:52:21.127759"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:52:21.128741"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:52:21.130324"], ["updated_at", "2020-09-20 21:52:21.130324"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-09-20 21:52:21.131558"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.222304"], ["updated_at", "2020-09-20 21:54:16.222304"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.269974"], ["updated_at", "2020-09-20 21:54:16.269974"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.272163"], ["updated_at", "2020-09-20 21:54:16.272163"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:54:16.273241"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.275493"], ["updated_at", "2020-09-20 21:54:16.275493"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.277164"], ["updated_at", "2020-09-20 21:54:16.277164"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:54:16.278111"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.279580"], ["updated_at", "2020-09-20 21:54:16.279580"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.281207"], ["updated_at", "2020-09-20 21:54:16.281207"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:54:16.282137"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.283629"], ["updated_at", "2020-09-20 21:54:16.283629"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-09-20 21:54:16.284537"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.285916"], ["updated_at", "2020-09-20 21:54:16.285916"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:16.287598"], ["updated_at", "2020-09-20 21:54:16.287598"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-09-20 21:54:16.288476"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.387151"], ["updated_at", "2020-09-20 21:54:42.387151"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.438041"], ["updated_at", "2020-09-20 21:54:42.438041"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.439873"], ["updated_at", "2020-09-20 21:54:42.439873"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:54:42.440815"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.443046"], ["updated_at", "2020-09-20 21:54:42.443046"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.444728"], ["updated_at", "2020-09-20 21:54:42.444728"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:54:42.445769"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.447218"], ["updated_at", "2020-09-20 21:54:42.447218"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.448993"], ["updated_at", "2020-09-20 21:54:42.448993"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:54:42.449879"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.451311"], ["updated_at", "2020-09-20 21:54:42.451311"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.0ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-09-20 21:54:42.452188"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.453651"], ["updated_at", "2020-09-20 21:54:42.453651"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:54:42.456099"], ["updated_at", "2020-09-20 21:54:42.456099"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-09-20 21:54:42.457067"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.476616"], ["updated_at", "2020-09-20 21:55:11.476616"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.525142"], ["updated_at", "2020-09-20 21:55:11.525142"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.527045"], ["updated_at", "2020-09-20 21:55:11.527045"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:55:11.528023"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.530189"], ["updated_at", "2020-09-20 21:55:11.530189"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.531817"], ["updated_at", "2020-09-20 21:55:11.531817"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:55:11.532708"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.534282"], ["updated_at", "2020-09-20 21:55:11.534282"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.535927"], ["updated_at", "2020-09-20 21:55:11.535927"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:55:11.536828"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.538245"], ["updated_at", "2020-09-20 21:55:11.538245"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.0ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-09-20 21:55:11.539186"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.540566"], ["updated_at", "2020-09-20 21:55:11.540566"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:11.542282"], ["updated_at", "2020-09-20 21:55:11.542282"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-09-20 21:55:11.543201"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.070129"], ["updated_at", "2020-09-20 21:55:40.070129"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.119826"], ["updated_at", "2020-09-20 21:55:40.119826"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.121909"], ["updated_at", "2020-09-20 21:55:40.121909"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-09-20 21:55:40.123124"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.125938"], ["updated_at", "2020-09-20 21:55:40.125938"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.127907"], ["updated_at", "2020-09-20 21:55:40.127907"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-09-20 21:55:40.128902"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.130776"], ["updated_at", "2020-09-20 21:55:40.130776"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.132659"], ["updated_at", "2020-09-20 21:55:40.132659"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-09-20 21:55:40.133706"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.135230"], ["updated_at", "2020-09-20 21:55:40.135230"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-09-20 21:55:40.136305"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.138043"], ["updated_at", "2020-09-20 21:55:40.138043"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-09-20 21:55:40.139843"], ["updated_at", "2020-09-20 21:55:40.139843"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-09-20 21:55:40.140856"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (1.9ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.446395"], ["updated_at", "2020-10-08 07:56:36.446395"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.535868"], ["updated_at", "2020-10-08 07:56:36.535868"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.537459"], ["updated_at", "2020-10-08 07:56:36.537459"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-10-08 07:56:36.538286"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.540429"], ["updated_at", "2020-10-08 07:56:36.540429"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.542148"], ["updated_at", "2020-10-08 07:56:36.542148"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-10-08 07:56:36.542988"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.544337"], ["updated_at", "2020-10-08 07:56:36.544337"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.546025"], ["updated_at", "2020-10-08 07:56:36.546025"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-10-08 07:56:36.546988"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.548507"], ["updated_at", "2020-10-08 07:56:36.548507"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-10-08 07:56:36.549505"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.551289"], ["updated_at", "2020-10-08 07:56:36.551289"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:56:36.553076"], ["updated_at", "2020-10-08 07:56:36.553076"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-10-08 07:56:36.554036"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/cars/new" for 127.0.0.1 at 2020-10-08 04:56:36 -0300
+Processing by CarsController#new as HTML
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (14.6ms)
+  Rendered cars/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 235ms (Views: 229.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (1.0ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.830479"], ["updated_at", "2020-10-08 07:58:09.830479"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.912174"], ["updated_at", "2020-10-08 07:58:09.912174"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.914162"], ["updated_at", "2020-10-08 07:58:09.914162"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-10-08 07:58:09.915204"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.917785"], ["updated_at", "2020-10-08 07:58:09.917785"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.919595"], ["updated_at", "2020-10-08 07:58:09.919595"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-10-08 07:58:09.920562"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.922243"], ["updated_at", "2020-10-08 07:58:09.922243"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.923990"], ["updated_at", "2020-10-08 07:58:09.923990"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-10-08 07:58:09.924919"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.926392"], ["updated_at", "2020-10-08 07:58:09.926392"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-10-08 07:58:09.927349"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.928874"], ["updated_at", "2020-10-08 07:58:09.928874"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:09.930540"], ["updated_at", "2020-10-08 07:58:09.930540"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-10-08 07:58:09.931468"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/cars/new" for 127.0.0.1 at 2020-10-08 04:58:09 -0300
+Processing by CarsController#new as HTML
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (13.1ms)
+  Rendered cars/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 157ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "MyString"], ["model", "MyString"], ["year", "MyString"], ["kilometers", 1.5], ["max_trunk_space", 1], ["current_trunk_usage", 1], ["current_wheel_usage", 1], ["created_at", "2020-10-08 07:58:10.118270"], ["updated_at", "2020-10-08 07:58:10.118270"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/edit.html.erb
+  Rendered cars/_form.html.erb (2.6ms)
+  Rendered cars/edit.html.erb (46.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering cars/new.html.erb
+  Rendered cars/_form.html.erb (2.0ms)
+  Rendered cars/new.html.erb (2.4ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Make"], ["model", "Model"], ["year", "Year"], ["kilometers", 2.5], ["max_trunk_space", 3], ["current_trunk_usage", 4], ["current_wheel_usage", 5], ["created_at", "2020-10-08 07:58:10.226488"], ["updated_at", "2020-10-08 07:58:10.226488"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/show.html.erb
+  Rendered cars/show.html.erb (0.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (1.1ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.141075"], ["updated_at", "2020-10-08 07:58:51.141075"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.222994"], ["updated_at", "2020-10-08 07:58:51.222994"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.224992"], ["updated_at", "2020-10-08 07:58:51.224992"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-10-08 07:58:51.226064"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.228698"], ["updated_at", "2020-10-08 07:58:51.228698"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.230495"], ["updated_at", "2020-10-08 07:58:51.230495"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-10-08 07:58:51.231493"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.233156"], ["updated_at", "2020-10-08 07:58:51.233156"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.234851"], ["updated_at", "2020-10-08 07:58:51.234851"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-10-08 07:58:51.235791"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.237257"], ["updated_at", "2020-10-08 07:58:51.237257"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-10-08 07:58:51.238200"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.239657"], ["updated_at", "2020-10-08 07:58:51.239657"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:58:51.241299"], ["updated_at", "2020-10-08 07:58:51.241299"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-10-08 07:58:51.242249"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/cars/new" for 127.0.0.1 at 2020-10-08 04:58:51 -0300
+Processing by CarsController#new as HTML
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (10.8ms)
+  Rendered cars/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 149ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "MyString"], ["model", "MyString"], ["year", "MyString"], ["kilometers", 1.5], ["max_trunk_space", 1], ["current_trunk_usage", 1], ["current_wheel_usage", 1], ["created_at", "2020-10-08 07:58:51.419196"], ["updated_at", "2020-10-08 07:58:51.419196"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/edit.html.erb
+  Rendered cars/_form.html.erb (2.6ms)
+  Rendered cars/edit.html.erb (43.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering cars/new.html.erb
+  Rendered cars/_form.html.erb (2.0ms)
+  Rendered cars/new.html.erb (2.4ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Make"], ["model", "Model"], ["year", "Year"], ["kilometers", 2.5], ["max_trunk_space", 3], ["current_trunk_usage", 4], ["current_wheel_usage", 5], ["created_at", "2020-10-08 07:58:51.520414"], ["updated_at", "2020-10-08 07:58:51.520414"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/show.html.erb
+  Rendered cars/show.html.erb (0.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.4ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.595989"], ["updated_at", "2020-10-08 07:59:22.595989"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.649381"], ["updated_at", "2020-10-08 07:59:22.649381"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.651339"], ["updated_at", "2020-10-08 07:59:22.651339"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-10-08 07:59:22.652364"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.654959"], ["updated_at", "2020-10-08 07:59:22.654959"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.656846"], ["updated_at", "2020-10-08 07:59:22.656846"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-10-08 07:59:22.657840"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.659809"], ["updated_at", "2020-10-08 07:59:22.659809"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.662055"], ["updated_at", "2020-10-08 07:59:22.662055"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-10-08 07:59:22.663195"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.664847"], ["updated_at", "2020-10-08 07:59:22.664847"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-10-08 07:59:22.665905"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.667627"], ["updated_at", "2020-10-08 07:59:22.667627"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:22.669665"], ["updated_at", "2020-10-08 07:59:22.669665"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-10-08 07:59:22.670712"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/cars/new" for 127.0.0.1 at 2020-10-08 04:59:22 -0300
+Processing by CarsController#new as HTML
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (8.1ms)
+  Rendered cars/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 132ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "MyString"], ["model", "MyString"], ["year", "MyString"], ["kilometers", 1.5], ["max_trunk_space", 1], ["current_trunk_usage", 1], ["current_wheel_usage", 1], ["created_at", "2020-10-08 07:59:22.827343"], ["updated_at", "2020-10-08 07:59:22.827343"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/edit.html.erb
+  Rendered cars/_form.html.erb (2.5ms)
+  Rendered cars/edit.html.erb (41.6ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering cars/new.html.erb
+  Rendered cars/_form.html.erb (1.9ms)
+  Rendered cars/new.html.erb (2.3ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Make"], ["model", "Model"], ["year", "Year"], ["kilometers", 2.5], ["max_trunk_space", 3], ["current_trunk_usage", 4], ["current_wheel_usage", 5], ["created_at", "2020-10-08 07:59:22.922866"], ["updated_at", "2020-10-08 07:59:22.922866"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/show.html.erb
+  Rendered cars/show.html.erb (0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.108350"], ["updated_at", "2020-10-08 07:59:40.108350"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.153205"], ["updated_at", "2020-10-08 07:59:40.153205"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.154964"], ["updated_at", "2020-10-08 07:59:40.154964"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["make", "Kia"], ["updated_at", "2020-10-08 07:59:40.155779"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.157985"], ["updated_at", "2020-10-08 07:59:40.157985"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.159579"], ["updated_at", "2020-10-08 07:59:40.159579"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 20], ["updated_at", "2020-10-08 07:59:40.160467"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.161914"], ["updated_at", "2020-10-08 07:59:40.161914"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.163811"], ["updated_at", "2020-10-08 07:59:40.163811"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 3000], ["updated_at", "2020-10-08 07:59:40.164761"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.166177"], ["updated_at", "2020-10-08 07:59:40.166177"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_trunk_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_trunk_usage", 25], ["updated_at", "2020-10-08 07:59:40.167086"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.168498"], ["updated_at", "2020-10-08 07:59:40.168498"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.2ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "max_wheel_usage_before_change", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Toyota"], ["model", "Yaris"], ["year", "2019"], ["kilometers", 1000.0], ["max_trunk_space", 100], ["max_wheel_usage_before_change", 12000], ["created_at", "2020-10-08 07:59:40.170189"], ["updated_at", "2020-10-08 07:59:40.170189"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Update (0.1ms)[0m  [1m[33mUPDATE "cars" SET "current_wheel_usage" = ?, "updated_at" = ? WHERE "cars"."id" = ?[0m  [["current_wheel_usage", 11999], ["updated_at", "2020-10-08 07:59:40.171097"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/cars/new" for 127.0.0.1 at 2020-10-08 04:59:40 -0300
+Processing by CarsController#new as HTML
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/_form.html.erb (7.3ms)
+  Rendered cars/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 124ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "cars"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "MyString"], ["model", "MyString"], ["year", "MyString"], ["kilometers", 1.5], ["max_trunk_space", 1], ["current_trunk_usage", 1], ["current_wheel_usage", 1], ["created_at", "2020-10-08 07:59:40.318981"], ["updated_at", "2020-10-08 07:59:40.318981"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/edit.html.erb
+  Rendered cars/_form.html.erb (2.9ms)
+  Rendered cars/edit.html.erb (46.6ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Make"], ["model", "Model"], ["year", "Year"], ["kilometers", 2.5], ["max_trunk_space", 3], ["current_trunk_usage", 4], ["current_wheel_usage", 5], ["created_at", "2020-10-08 07:59:40.395076"], ["updated_at", "2020-10-08 07:59:40.395076"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.1ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Make"], ["model", "Model"], ["year", "Year"], ["kilometers", 2.5], ["max_trunk_space", 3], ["current_trunk_usage", 4], ["current_wheel_usage", 5], ["created_at", "2020-10-08 07:59:40.396215"], ["updated_at", "2020-10-08 07:59:40.396215"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/index.html.erb
+  Rendered cars/index.html.erb (1.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  Rendering cars/new.html.erb
+  Rendered cars/_form.html.erb (2.1ms)
+  Rendered cars/new.html.erb (2.6ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCar Create (0.3ms)[0m  [1m[32mINSERT INTO "cars" ("make", "model", "year", "kilometers", "max_trunk_space", "current_trunk_usage", "current_wheel_usage", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["make", "Make"], ["model", "Model"], ["year", "Year"], ["kilometers", 2.5], ["max_trunk_space", 3], ["current_trunk_usage", 4], ["current_wheel_usage", 5], ["created_at", "2020-10-08 07:59:40.459233"], ["updated_at", "2020-10-08 07:59:40.459233"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering cars/show.html.erb
+  Rendered cars/show.html.erb (0.6ms)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
